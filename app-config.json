@@ -1,10 +1,10 @@
 {
   "android": {
-    "minimumVersionCode": 99,
+    "minimumVersionCode": 1,
     "storeUrl": "https://play.google.com/store/apps/details?id=com.etatech.hashiya"
   },
   "ios": {
-    "minimumBuild": 99,
+    "minimumBuild": 1,
     "storeUrl": "https://apps.apple.com/app/id0000000000"
   }
 }
