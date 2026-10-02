@@ -1,6 +1,6 @@
 # Hashiya Privacy Policy
 
-Welcome to the privacy policy repository for **Hashiya**.
+Welcome to the [privacy policy](https://fadyfouad.github.io/Hashiya-Privacy-Policy/) repository for **Hashiya**.
 
 ## Overview
 
