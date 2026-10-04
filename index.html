@@ -90,18 +90,20 @@
   <article id="en" lang="en" dir="ltr">
     <header>
       <h2>Privacy Policy</h2>
-      <p class="effective">Effective 29 September 2026 · applies to Hashiya for iPhone, iPad and Android</p>
+      <p class="effective">Effective 5 October 2026 · applies to Hashiya for iPhone, iPad and Android</p>
     </header>
 
-    <div class="summary"><p>Hashiya has no account, no analytics, no ads and no tracking. Your library stays on your device. We don't run a server, so we never receive your data.</p></div>
+    <div class="summary"><p>Hashiya has no account, no analytics, no ads and no tracking. Your library, notes and PDFs stay on your device. We don't run a server. The only thing that can reach us is a crash report — technical details with nothing you wrote or read — and you can turn that off in Settings.</p></div>
 
     <section>
       <h3>What stays on your device</h3>
       <ul>
-        <li>The papers you save, their reading status (To read, Reading, Read) and your library searches.</li>
+        <li>The papers you save, their reading status (To read, Reading, Read), your notes, your collections and your library searches.</li>
+        <li>PDFs you download or attach.</li>
         <li>Your settings, including an OpenAlex API key if you enter one. On iPhone and iPad the key is kept in the Keychain; on Android it is kept in the app's private storage.</li>
       </ul>
-      <p>Your phone's own backup (iCloud or Google) may include this data in your personal backup, under your account and that service's terms. We can't access it.</p>
+      <p>Your phone's own backup (iCloud or Google) may include this data in your personal backup, under your account and that service's terms. We can't access it. PDFs downloaded from a paper's open-access link are left out of those backups, because they can be downloaded again.</p>
+      <p>When you export a backup from Settings, Hashiya makes a file of your library (and, if you choose, your PDFs) and saves or sends it only where you pick. Restoring a backup reads the file you choose on your device.</p>
     </section>
 
     <section>
@@ -112,7 +114,21 @@
         <li><strong>arXiv</strong> (<span class="host">export.arxiv.org</span>), operated by Cornell University: an arXiv ID you look up, when OpenAlex doesn't have that paper.</li>
       </ul>
       <p>These requests don't include your name, your library or any identifier we create. Like any website, these services see your IP address and may keep logs under their own privacy policies: <a href="https://openalex.org/OpenAlex_privacy_policy.pdf" rel="noopener">OpenAlex</a> and <a href="https://info.arxiv.org/help/policies/privacy_policy.html" rel="noopener">arXiv</a>.</p>
+      <p>When you download a paper's PDF, Hashiya fetches it from the open-access address OpenAlex lists for that paper — usually the publisher's site or a repository such as arXiv. That site sees your IP address, like any download.</p>
       <p>Each time it opens, Hashiya also checks whether your version is still supported by downloading a small public file from GitHub Pages (<span class="host">fadyfouad.github.io</span>), operated by GitHub. That request contains nothing about you; like any website, GitHub sees your IP address.</p>
+    </section>
+
+    <section>
+      <h3>Crash reports</h3>
+      <p>To find and fix bugs, Hashiya sends a report to <strong>Firebase Crashlytics</strong>, a Google service, when it crashes or hits certain errors (for example a failed restore). A report contains:</p>
+      <ul>
+        <li>the technical details of the error (the type of error and where in the app's code it happened);</li>
+        <li>the app version, your device model and operating system;</li>
+        <li>the app's language, the screen that was open, a rough library size (for example "51–500 papers") and whether a backup was running;</li>
+        <li>a random installation identifier created by Firebase, which isn't linked to you.</li>
+      </ul>
+      <p>A report never contains your papers, notes, searches, collection names, files or API key. Google processes these reports for us under <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase's privacy terms</a>; we use them only to keep the app working.</p>
+      <p>Crash reports are on by default. Turn them off in <strong>Settings → Privacy → Send crash reports</strong>; reports not yet sent are then deleted and nothing more is sent.</p>
     </section>
 
     <section>
@@ -127,12 +143,12 @@
 
     <section>
       <h3>Deleting your data</h3>
-      <p>Swipe a paper to remove it, or delete the app to remove your whole library and settings. Clearing the API key in Settings removes it from your device.</p>
+      <p>Swipe a paper to remove it, or delete the app to remove your whole library and settings. Clearing the API key in Settings removes it from your device. To have crash reports from your device deleted, email us; reports can't be linked to you, so tell us roughly when the app crashed.</p>
     </section>
 
     <section>
       <h3>Children</h3>
-      <p>Hashiya is made for university students and researchers. It isn't directed at children, and it collects no personal information from anyone.</p>
+      <p>Hashiya is made for university students and researchers. It isn't directed at children, and it collects no personal information from anyone; crash reports contain no personal details.</p>
     </section>
 
     <section>
@@ -153,18 +169,20 @@
   <article id="ar" lang="ar" dir="rtl">
     <header>
       <h2>سياسة الخصوصية</h2>
-      <p class="effective">سارية منذ 29 سبتمبر 2026 · تنطبق على حاشية لأجهزة iPhone وiPad وأندرويد</p>
+      <p class="effective">سارية منذ 5 أكتوبر 2026 · تنطبق على حاشية لأجهزة iPhone وiPad وأندرويد</p>
     </header>
 
-    <div class="summary"><p>لا يحتاج تطبيق حاشية إلى حساب، ولا يستخدم أدوات تحليل أو إعلانات أو تتبّع. تبقى مكتبتك على جهازك، وليس لدينا خادم، فلا تصلنا بياناتك أبدًا.</p></div>
+    <div class="summary"><p>لا يحتاج تطبيق حاشية إلى حساب، ولا يستخدم أدوات تحليل أو إعلانات أو تتبّع. تبقى مكتبتك وملاحظاتك وملفات PDF على جهازك، وليس لدينا خادم. والشيء الوحيد الذي قد يصلنا هو تقرير عطل يتضمن تفاصيل تقنية فقط، دون أي شيء كتبته أو قرأته، ويمكنك إيقافه من الإعدادات.</p></div>
 
     <section>
       <h3>ما يبقى على جهازك</h3>
       <ul>
-        <li>الأوراق التي تحفظها، وحالة قراءتها (للقراءة، قيد القراءة، مقروءة)، وعمليات البحث في مكتبتك.</li>
+        <li>الأوراق التي تحفظها، وحالة قراءتها (للقراءة، قيد القراءة، مقروءة)، وملاحظاتك، ومجموعاتك، وعمليات البحث في مكتبتك.</li>
+        <li>ملفات PDF التي تنزّلها أو ترفقها.</li>
         <li>إعداداتك، ومنها مفتاح OpenAlex إن أدخلته. يُحفظ المفتاح في سلسلة المفاتيح (Keychain) على iPhone وiPad، وفي التخزين الخاص بالتطبيق على أندرويد.</li>
       </ul>
-      <p>قد تتضمن النسخة الاحتياطية لهاتفك (iCloud أو Google) هذه البيانات ضمن نسختك الشخصية، تحت حسابك ووفق شروط تلك الخدمة، ولا يمكننا الوصول إليها.</p>
+      <p>قد تتضمن النسخة الاحتياطية لهاتفك (iCloud أو Google) هذه البيانات ضمن نسختك الشخصية، تحت حسابك ووفق شروط تلك الخدمة، ولا يمكننا الوصول إليها. ولا تُضمَّن فيها ملفات PDF المُنزَّلة من رابط الوصول المفتوح للورقة، لأن تنزيلها ممكن مرة أخرى.</p>
+      <p>وعندما تصدّر نسخة احتياطية من الإعدادات، ينشئ حاشية ملفًا لمكتبتك (ولملفات PDF إن اخترت ذلك)، ولا يحفظه أو يرسله إلا إلى المكان الذي تختاره. واستعادة نسخة احتياطية تقرأ الملف الذي تختاره على جهازك.</p>
     </section>
 
     <section>
@@ -175,7 +193,21 @@
         <li><strong>arXiv</strong> (<span class="host">export.arxiv.org</span>) الذي تديره جامعة كورنيل: معرّف arXiv الذي تبحث عنه، عندما لا تكون الورقة في OpenAlex.</li>
       </ul>
       <p>لا تتضمن هذه الطلبات اسمك أو مكتبتك أو أي معرّف ننشئه. وكأي موقع إلكتروني، ترى هذه الخدمات عنوان IP الخاص بك وقد تحتفظ بسجلات وفق سياسات الخصوصية الخاصة بها: <a href="https://openalex.org/OpenAlex_privacy_policy.pdf" rel="noopener">OpenAlex</a> و<a href="https://info.arxiv.org/help/policies/privacy_policy.html" rel="noopener">arXiv</a>.</p>
+      <p>وعندما تنزّل ملف PDF لورقة ما، يجلبه حاشية من عنوان الوصول المفتوح الذي يذكره OpenAlex لتلك الورقة، وهو غالبًا موقع الناشر أو مستودع مثل arXiv. ويرى ذلك الموقع عنوان IP الخاص بك كما في أي تنزيل.</p>
       <p>ويتحقق حاشية أيضًا عند كل فتح من أن إصدارك ما زال مدعومًا، بتنزيل ملف عام صغير من GitHub Pages ‏(<span class="host">fadyfouad.github.io</span>) التابع لشركة GitHub. ولا يتضمن هذا الطلب أي شيء عنك، وكأي موقع إلكتروني ترى GitHub عنوان IP الخاص بك.</p>
+    </section>
+
+    <section>
+      <h3>تقارير الأعطال</h3>
+      <p>لاكتشاف المشكلات وإصلاحها، يرسل حاشية تقريرًا إلى <strong>Firebase Crashlytics</strong>، وهي خدمة من Google، عندما يتعطّل أو يواجه أخطاء معيّنة (مثل فشل استعادة نسخة احتياطية). يتضمن التقرير:</p>
+      <ul>
+        <li>التفاصيل التقنية للخطأ (نوعه وموضعه في شيفرة التطبيق)؛</li>
+        <li>إصدار التطبيق، وطراز جهازك ونظام التشغيل؛</li>
+        <li>لغة التطبيق، والشاشة التي كانت مفتوحة، وحجمًا تقريبيًا للمكتبة (مثل «51–500 ورقة»)، وهل كان نسخ احتياطي جاريًا؛</li>
+        <li>معرّف تثبيت عشوائيًا تنشئه Firebase، ولا يرتبط بك.</li>
+      </ul>
+      <p>لا يتضمن التقرير أبدًا أوراقك أو ملاحظاتك أو عمليات بحثك أو أسماء مجموعاتك أو ملفاتك أو مفتاح API. تعالج Google هذه التقارير نيابةً عنا وفق <a href="https://firebase.google.com/support/privacy" rel="noopener">شروط الخصوصية في Firebase</a>، ولا نستخدمها إلا للحفاظ على عمل التطبيق.</p>
+      <p>تقارير الأعطال مفعّلة افتراضيًا. يمكنك إيقافها من <strong>الإعدادات ← الخصوصية ← إرسال تقارير الأعطال</strong>، فتُحذف التقارير التي لم تُرسَل بعد ولا يُرسَل شيء بعد ذلك.</p>
     </section>
 
     <section>
@@ -190,12 +222,12 @@
 
     <section>
       <h3>حذف بياناتك</h3>
-      <p>اسحب أي ورقة لإزالتها، أو احذف التطبيق لإزالة مكتبتك وإعداداتك بالكامل. ومسح مفتاح API من الإعدادات يزيله من جهازك.</p>
+      <p>اسحب أي ورقة لإزالتها، أو احذف التطبيق لإزالة مكتبتك وإعداداتك بالكامل. ومسح مفتاح API من الإعدادات يزيله من جهازك. ولحذف تقارير الأعطال المرسلة من جهازك، راسلنا بالبريد الإلكتروني؛ ولأن التقارير لا ترتبط بك، اذكر الوقت التقريبي للعطل.</p>
     </section>
 
     <section>
       <h3>الأطفال</h3>
-      <p>صُمّم حاشية لطلاب الجامعات والباحثين، وهو غير موجّه إلى الأطفال، ولا يجمع أي معلومات شخصية من أي أحد.</p>
+      <p>صُمّم حاشية لطلاب الجامعات والباحثين، وهو غير موجّه إلى الأطفال، ولا يجمع أي معلومات شخصية من أي أحد؛ ولا تتضمن تقارير الأعطال أي تفاصيل شخصية.</p>
     </section>
 
     <section>
