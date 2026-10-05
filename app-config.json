@@ -6,5 +6,10 @@
   "ios": {
     "minimumBuild": 1,
     "storeUrl": "https://apps.apple.com/app/id6817343027"
+  },
+  "openAlex": {
+    "dailyDeviceCalls": 60,
+    "maxPagesPerQuery": 8,
+    "baseUrl": null
   }
 }
