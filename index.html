@@ -93,7 +93,7 @@
       <p class="effective">Effective 6 October 2026 · applies to Hashiya for iPhone, iPad and Android</p>
     </header>
 
-    <div class="summary"><p>Hashiya has no account, no ads and no tracking. Your library, notes and PDFs stay on your device. We don't run a server. What can reach us is a crash report and anonymous usage statistics — never anything you wrote or read — and you can turn either off in Settings.</p></div>
+    <div class="summary"><p>Hashiya has no account, no ads and no tracking. Your library, notes and PDFs stay on your device. We don't run a server. What can reach us is a crash report and usage statistics that aren't linked to you — never anything you wrote or read — and you can turn either off in Settings.</p></div>
 
     <section>
       <h3>What stays on your device</h3>
@@ -133,15 +133,17 @@
 
     <section>
       <h3>Usage statistics</h3>
-      <p>To learn which features help and what to improve, Hashiya sends anonymous usage statistics to <strong>Firebase Analytics</strong> (Google Analytics for Firebase), a Google service. They contain:</p>
+      <p>To learn which features help and what to improve, Hashiya sends usage statistics to <strong>Firebase Analytics</strong> (Google Analytics for Firebase), a Google service. They aren't linked to your identity. They contain:</p>
       <ul>
-        <li>counts of what you do in the app: searches (whether filters were on, roughly how many results, and whether the search used Hashiya's shared allowance, your own key or no key), papers saved or removed, notes edited, collections created, exports, restores, PDFs downloaded or opened, and which screen is open;</li>
+        <li>what you do in the app, counted: searches (whether it was a keyword search or a DOI, arXiv or link lookup, whether filters were on, roughly how many results, and whether the search used Hashiya's shared allowance, your own key, no key, or results already kept on your device), loading more results (which page), reaching the daily search limit or the page limit, papers saved (from search results or a lookup) or removed, notes edited, collections created and papers added to them, exports (BibTeX or backup, with or without PDFs), restores and PDF downloads (and whether they worked), PDFs opened (downloaded or attached), and which screens you open;</li>
         <li>for keyword searches, a broad research area such as "artificial intelligence" or "computer networks", worked out on your device from the OpenAlex topics of the results — your search words are never sent;</li>
+        <li>when the app is first opened, opened and updated, and how long it's in use, which Firebase records automatically;</li>
         <li>the app's language, a rough library size (for example "51–500 papers"), whether you use your own OpenAlex key, and the app version, device model and operating system;</li>
+        <li>your approximate location (such as country and city), which Google works out from your IP address; Google doesn't keep the IP address itself;</li>
         <li>a random app-instance identifier created by Firebase, which isn't linked to you and isn't an advertising identifier.</li>
       </ul>
-      <p>They never contain your search words, papers, titles, DOIs, notes, collection names, files or API key. Advertising features are off: no advertising identifier is collected and nothing is used for ads or shared with advertisers. Google processes this data for us under <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase's privacy terms</a> and keeps it for 2 months.</p>
-      <p>Usage statistics are on by default. Turn them off in <strong>Settings → Privacy → Share usage statistics</strong>; the app then stops sending them and deletes its analytics identifier and anything not yet sent.</p>
+      <p>They never contain your name, email address, search words, papers, titles, DOIs, notes, collection names, files or API key. Advertising features are off: no advertising identifier is collected, and nothing is used for ads or shared with advertisers. Google processes this data for us under <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase's privacy terms</a>. It keeps the detailed, per-installation data for 2 months; after that only overall totals remain.</p>
+      <p>Usage statistics are on by default. Turn them off in <strong>Settings → Privacy → Share usage statistics</strong>; the app then stops sending them and deletes its analytics identifier and anything not yet sent. What was already sent is deleted after 2 months, apart from overall totals.</p>
     </section>
 
     <section>
@@ -156,17 +158,17 @@
 
     <section>
       <h3>Deleting your data</h3>
-      <p>Swipe a paper to remove it, or delete the app to remove your whole library and settings. Clearing the API key in Settings removes it from your device. Crash reports can't be linked to you, so we can't single out yours; Crashlytics deletes every report automatically after 90 days. To stop sending them, turn crash reports off in Settings. Usage statistics can't be linked to you either; they are deleted after 2 months. To stop sending them, turn them off in Settings.</p>
+      <p>Swipe a paper to remove it, or delete the app to remove your whole library and settings. Clearing the API key in Settings removes it from your device. Crash reports can't be linked to you, so we can't single out yours; Crashlytics deletes every report automatically after 90 days. To stop sending them, turn crash reports off in Settings. Usage statistics can't be linked to you either; Google deletes the detailed data after 2 months and keeps only overall totals. To stop sending them, turn them off in Settings.</p>
     </section>
 
     <section>
       <h3>Children</h3>
-      <p>Hashiya is made for university students and researchers. It isn't directed at children, and it collects no personal information from anyone; crash reports and usage statistics contain no personal details.</p>
+      <p>Hashiya is made for university students and researchers. It isn't directed at children, and it doesn't ask for or collect names, email addresses or other details that identify anyone; crash reports and usage statistics contain none.</p>
     </section>
 
     <section>
       <h3>Changes</h3>
-      <p>If this policy changes, we'll update this page and its effective date. If the app ever starts collecting data, we'll say so here before that version is released.</p>
+      <p>If this policy changes, we'll update this page and its effective date. If the app starts collecting anything new, we'll say so here before that version is released.</p>
     </section>
 
     <section>
@@ -185,7 +187,7 @@
       <p class="effective">سارية منذ 6 أكتوبر 2026 · تنطبق على حاشية لأجهزة iPhone وiPad وأندرويد</p>
     </header>
 
-    <div class="summary"><p>لا يحتاج تطبيق حاشية إلى حساب، ولا يعرض إعلانات ولا يتتبّعك. تبقى مكتبتك وملاحظاتك وملفات PDF على جهازك، وليس لدينا خادم. وما قد يصلنا هو تقرير عطل وإحصاءات استخدام مجهولة، دون أي شيء كتبته أو قرأته، ويمكنك إيقاف أيٍّ منهما من الإعدادات.</p></div>
+    <div class="summary"><p>لا يحتاج تطبيق حاشية إلى حساب، ولا يعرض إعلانات ولا يتتبّعك. تبقى مكتبتك وملاحظاتك وملفات PDF على جهازك، وليس لدينا خادم. وما قد يصلنا هو تقرير عطل وإحصاءات استخدام غير مرتبطة بهويتك، دون أي شيء كتبته أو قرأته، ويمكنك إيقاف أيٍّ منهما من الإعدادات.</p></div>
 
     <section>
       <h3>ما يبقى على جهازك</h3>
@@ -225,15 +227,17 @@
 
     <section>
       <h3>إحصاءات الاستخدام</h3>
-      <p>لمعرفة الميزات المفيدة وما يجب تحسينه، يرسل حاشية إحصاءات استخدام مجهولة إلى <strong>Firebase Analytics</strong> ‏(Google Analytics for Firebase)، وهي خدمة من Google. وتتضمن:</p>
+      <p>لمعرفة الميزات المفيدة وما يجب تحسينه، يرسل حاشية إحصاءات استخدام إلى <strong>Firebase Analytics</strong> ‏(Google Analytics for Firebase)، وهي خدمة من Google. ولا ترتبط هذه الإحصاءات بهويتك. وتتضمن:</p>
       <ul>
-        <li>أعدادًا لما تفعله في التطبيق: عمليات البحث (وهل كانت عوامل التصفية مفعّلة، وعددًا تقريبيًا للنتائج، وهل استخدم البحث الحصة المشتركة لحاشية أو مفتاحك أو لا مفتاح)، والأوراق المحفوظة أو المُزالة، والملاحظات المعدّلة، والمجموعات المُنشأة، والتصدير، والاستعادة، وملفات PDF المُنزّلة أو المفتوحة، والشاشة المفتوحة؛</li>
-        <li>ولعمليات البحث بالكلمات، مجالًا بحثيًا عامًا مثل «الذكاء الاصطناعي» أو «شبكات الحاسوب»، يُستنتج على جهازك من موضوعات OpenAlex للنتائج، ولا تُرسَل كلمات بحثك أبدًا؛</li>
+        <li>أعدادًا لما تفعله في التطبيق: عمليات البحث (وهل كانت بحثًا بالكلمات أم بحثًا عن DOI أو معرّف arXiv أو رابط، وهل كانت عوامل التصفية مفعّلة، وعددًا تقريبيًا للنتائج، وهل استخدم البحث الحصة المشتركة لحاشية أو مفتاحك الخاص أو دون مفتاح أو نتائج محفوظة على جهازك)، وتحميل المزيد من النتائج (رقم الصفحة)، وبلوغ الحد اليومي للبحث أو حد الصفحات، والأوراق المحفوظة (من نتائج البحث أم من بحث عن معرّف) أو المُزالة، والملاحظات المعدّلة، والمجموعات المُنشأة والأوراق المضافة إليها، والتصدير (BibTeX أو نسخة احتياطية، مع ملفات PDF أو دونها)، والاستعادة وتنزيل ملفات PDF (ونجاحهما)، وفتح ملفات PDF (المُنزّلة أو المُرفقة)، والشاشات التي تفتحها؛</li>
+        <li>لعمليات البحث بالكلمات، مجالًا بحثيًا عامًا مثل «الذكاء الاصطناعي» أو «شبكات الحاسوب»، يُستنتج على جهازك من موضوعات OpenAlex للنتائج، ولا تُرسَل كلمات بحثك أبدًا؛</li>
+        <li>أول فتح للتطبيق ومرات فتحه وتحديثه ومدة استخدامه، وهي بيانات تسجّلها Firebase تلقائيًا؛</li>
         <li>لغة التطبيق، وحجمًا تقريبيًا للمكتبة (مثل «51–500 ورقة»)، وهل تستخدم مفتاح OpenAlex خاصًا بك، وإصدار التطبيق وطراز الجهاز ونظام التشغيل؛</li>
+        <li>موقعك التقريبي (مثل الدولة والمدينة)، تستنتجه Google من عنوان IP الخاص بك، ولا تحتفظ بالعنوان نفسه؛</li>
         <li>معرّفًا عشوائيًا لنسخة التطبيق تنشئه Firebase، لا يرتبط بك وليس معرّفًا إعلانيًا.</li>
       </ul>
-      <p>ولا تتضمن أبدًا كلمات بحثك أو أوراقك أو عناوينها أو أرقام DOI أو ملاحظاتك أو أسماء مجموعاتك أو ملفاتك أو مفتاح API. وميزات الإعلانات متوقفة: لا يُجمع أي معرّف إعلاني ولا يُستخدم شيء للإعلانات ولا يُشارك مع المعلنين. وتعالج Google هذه البيانات نيابةً عنا وفق <a href="https://firebase.google.com/support/privacy" rel="noopener">شروط الخصوصية في Firebase</a> وتحتفظ بها شهرين.</p>
-      <p>إحصاءات الاستخدام مفعّلة افتراضيًا. يمكنك إيقافها من <strong>الإعدادات ← الخصوصية ← مشاركة إحصاءات الاستخدام</strong>، فيتوقف التطبيق عن إرسالها ويحذف معرّف التحليلات وكل ما لم يُرسَل بعد.</p>
+      <p>ولا تتضمن أبدًا اسمك أو بريدك الإلكتروني أو كلمات بحثك أو أوراقك أو عناوينها أو أرقام DOI أو ملاحظاتك أو أسماء مجموعاتك أو ملفاتك أو مفتاح API. وميزات الإعلانات متوقفة: لا يُجمع أي معرّف إعلاني، ولا يُستخدم شيء للإعلانات ولا يُشارَك مع المعلنين. وتعالج Google هذه البيانات نيابةً عنا وفق <a href="https://firebase.google.com/support/privacy" rel="noopener">شروط الخصوصية في Firebase</a>، وتحتفظ بالبيانات التفصيلية لكل نسخة من التطبيق شهرين، ثم لا يبقى منها إلا الإجماليات العامة.</p>
+      <p>إحصاءات الاستخدام مفعّلة افتراضيًا. يمكنك إيقافها من <strong>الإعدادات ← الخصوصية ← مشاركة إحصاءات الاستخدام</strong>، فيتوقف التطبيق عن إرسالها ويحذف معرّف التحليلات وكل ما لم يُرسَل بعد. أما ما أُرسل من قبل فيُحذف بعد شهرين، باستثناء الإجماليات العامة.</p>
     </section>
 
     <section>
@@ -248,17 +252,17 @@
 
     <section>
       <h3>حذف بياناتك</h3>
-      <p>اسحب أي ورقة لإزالتها، أو احذف التطبيق لإزالة مكتبتك وإعداداتك بالكامل. ومسح مفتاح API من الإعدادات يزيله من جهازك. ولأن تقارير الأعطال لا ترتبط بك، لا يمكننا تمييز تقاريرك عن غيرها؛ وتحذف Crashlytics كل التقارير تلقائيًا بعد 90 يومًا. ولإيقاف إرسالها، أوقف تقارير الأعطال من الإعدادات. ولا يمكن ربط إحصاءات الاستخدام بك كذلك، وتُحذف بعد شهرين. ولإيقاف إرسالها، أوقفها من الإعدادات.</p>
+      <p>اسحب أي ورقة لإزالتها، أو احذف التطبيق لإزالة مكتبتك وإعداداتك بالكامل. ومسح مفتاح API من الإعدادات يزيله من جهازك. ولأن تقارير الأعطال لا ترتبط بك، لا يمكننا تمييز تقاريرك عن غيرها؛ وتحذف Crashlytics كل التقارير تلقائيًا بعد 90 يومًا. ولإيقاف إرسالها، أوقف تقارير الأعطال من الإعدادات. ولا يمكن ربط إحصاءات الاستخدام بك كذلك؛ إذ تحذف Google البيانات التفصيلية بعد شهرين ولا تُبقي إلا الإجماليات العامة. ولإيقاف إرسالها، أوقفها من الإعدادات.</p>
     </section>
 
     <section>
       <h3>الأطفال</h3>
-      <p>صُمّم حاشية لطلاب الجامعات والباحثين، وهو غير موجّه إلى الأطفال، ولا يجمع أي معلومات شخصية من أي أحد؛ ولا تتضمن تقارير الأعطال ولا إحصاءات الاستخدام أي تفاصيل شخصية.</p>
+      <p>صُمّم حاشية لطلاب الجامعات والباحثين، وهو غير موجّه إلى الأطفال، ولا يطلب أو يجمع أسماء أو عناوين بريد إلكتروني أو غيرها مما يحدّد هوية أي شخص، ولا تتضمن تقارير الأعطال ولا إحصاءات الاستخدام شيئًا من ذلك.</p>
     </section>
 
     <section>
       <h3>التغييرات</h3>
-      <p>إذا تغيّرت هذه السياسة فسنحدّث هذه الصفحة وتاريخ سريانها. وإذا بدأ التطبيق يومًا بجمع أي بيانات، فسنذكر ذلك هنا قبل إصدار تلك النسخة.</p>
+      <p>إذا تغيّرت هذه السياسة فسنحدّث هذه الصفحة وتاريخ سريانها. وإذا بدأ التطبيق بجمع أي شيء جديد، فسنذكر ذلك هنا قبل إصدار تلك النسخة.</p>
     </section>
 
     <section>
