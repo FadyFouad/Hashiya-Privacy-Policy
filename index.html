@@ -90,7 +90,7 @@
   <article id="en" lang="en" dir="ltr">
     <header>
       <h2>Privacy Policy</h2>
-      <p class="effective">Effective 6 October 2026 · applies to Hashiya for iPhone, iPad and Android</p>
+      <p class="effective">Effective 5 November 2026 · applies to Hashiya for iPhone, iPad and Android</p>
     </header>
 
     <div class="summary"><p>Hashiya has no account, no ads and no tracking. Your library, notes and PDFs stay on your device. We don't run a server. What can reach us is a crash report and usage statistics, which aren't linked to your name or account and never contain anything you wrote or read — and you can turn either off in Settings.</p></div>
@@ -104,13 +104,14 @@
       </ul>
       <p>Your phone's own backup (iCloud or Google) may include this data in your personal backup, under your account and that service's terms. We can't access it. PDFs downloaded from a paper's open-access link are left out of those backups, because they can be downloaded again.</p>
       <p>When you export a backup from Settings, Hashiya makes a file of your library (and, if you choose, your PDFs) and saves or sends it only where you pick. Restoring a backup reads the file you choose on your device.</p>
+      <p>When you import a BibTeX or RIS file, Hashiya reads the file you choose on your device and saves its papers to your library. The file itself isn't sent anywhere; only the DOIs in it are looked up on OpenAlex, as described below.</p>
     </section>
 
     <section>
       <h3>What the app sends, and to whom</h3>
       <p>To find papers, Hashiya sends requests straight from your device to two public research catalogs:</p>
       <ul>
-        <li><strong>OpenAlex</strong> (<span class="host">api.openalex.org</span>), operated by OurResearch (Impactstory, Inc.): your search words and filters, and any DOI you look up.</li>
+        <li><strong>OpenAlex</strong> (<span class="host">api.openalex.org</span>), operated by OurResearch (Impactstory, Inc.): your search words and filters, any DOI you look up, and the DOIs in a BibTeX or RIS file you import, to find those papers.</li>
         <li><strong>arXiv</strong> (<span class="host">export.arxiv.org</span>), operated by Cornell University: an arXiv ID you look up, when OpenAlex doesn't have that paper.</li>
       </ul>
       <p>These requests don't include your name, your library or any identifier we create. Like any website, these services see your IP address and may keep logs under their own privacy policies: <a href="https://openalex.org/OpenAlex_privacy_policy.pdf" rel="noopener">OpenAlex</a> and <a href="https://info.arxiv.org/help/policies/privacy_policy.html" rel="noopener">arXiv</a>.</p>
@@ -135,7 +136,7 @@
       <h3>Usage statistics</h3>
       <p>To learn which features help and what to improve, Hashiya sends usage statistics to <strong>Firebase Analytics</strong> (Google Analytics for Firebase), a Google service. They are tied to a random Firebase identifier, not to your name or account. They contain:</p>
       <ul>
-        <li>what you do in the app, counted: searches (whether it was a keyword search or a DOI, arXiv or link lookup, whether filters were on, roughly how many results, and whether the search used Hashiya's shared allowance, your own key, no key, or results already kept on your device), loading more results (which page), reaching the daily search limit or the page limit, papers saved (from search results or a lookup) or removed, notes edited, collections created and papers added to them, exports (BibTeX or backup, with or without PDFs), restores and PDF downloads (and whether they worked), PDFs opened (downloaded or attached), and which screens you open;</li>
+        <li>what you do in the app, counted: searches (whether it was a keyword search or a DOI, arXiv or link lookup, whether filters were on, roughly how many results, and whether the search used Hashiya's shared allowance, your own key, no key, or results already kept on your device), loading more results (which page), reaching the daily search limit or the page limit, papers saved (from search results or a lookup) or removed, notes edited, collections created and papers added to them, exports (BibTeX, APA, IEEE or backup, with or without PDFs), restores and PDF downloads (and whether they worked), imports (whether the file was BibTeX or RIS, whether the import worked, was cancelled or why it couldn't, a rough number of entries, roughly what share of the papers were found on OpenAlex, and whether they went into a new collection — never the file's name or contents), PDFs opened (downloaded or attached), and which screens you open;</li>
         <li>for keyword searches, a broad research area such as "artificial intelligence" or "computer networks", worked out on your device from the OpenAlex topics of the results — your search words are never sent;</li>
         <li>when the app is first opened, opened and updated, and how long it's in use, which Firebase records automatically;</li>
         <li>the app's language, a rough library size (for example "51–500 papers"), whether you use your own OpenAlex key, and the app version, device model and operating system;</li>
@@ -184,7 +185,7 @@
   <article id="ar" lang="ar" dir="rtl">
     <header>
       <h2>سياسة الخصوصية</h2>
-      <p class="effective">سارية منذ 6 أكتوبر 2026 · تنطبق على حاشية لأجهزة iPhone وiPad وأندرويد</p>
+      <p class="effective">سارية منذ 5 نوفمبر 2026 · تنطبق على حاشية لأجهزة iPhone وiPad وأندرويد</p>
     </header>
 
     <div class="summary"><p>لا يحتاج تطبيق حاشية إلى حساب، ولا يعرض إعلانات ولا يتتبّعك. تبقى مكتبتك وملاحظاتك وملفات PDF على جهازك، وليس لدينا خادم. وما قد يصلنا هو تقرير عطل وإحصاءات استخدام، لا ترتبط باسمك أو بحسابك ولا تتضمن أي شيء كتبته أو قرأته، ويمكنك إيقاف أيٍّ منهما من الإعدادات.</p></div>
@@ -198,13 +199,14 @@
       </ul>
       <p>قد تتضمن النسخة الاحتياطية لهاتفك (iCloud أو Google) هذه البيانات ضمن نسختك الشخصية، تحت حسابك ووفق شروط تلك الخدمة، ولا يمكننا الوصول إليها. ولا تُضمَّن فيها ملفات PDF المُنزَّلة من رابط الوصول المفتوح للورقة، لأن تنزيلها ممكن مرة أخرى.</p>
       <p>وعندما تصدّر نسخة احتياطية من الإعدادات، ينشئ حاشية ملفًا لمكتبتك (ولملفات PDF إن اخترت ذلك)، ولا يحفظه أو يرسله إلا إلى المكان الذي تختاره. واستعادة نسخة احتياطية تقرأ الملف الذي تختاره على جهازك.</p>
+      <p>وعندما تستورد ملف BibTeX أو RIS، يقرأ حاشية الملف الذي تختاره على جهازك ويحفظ أوراقه في مكتبتك. ولا يُرسَل الملف نفسه إلى أي مكان، وإنما يُبحث في OpenAlex عن أرقام DOI الواردة فيه، كما هو موضح أدناه.</p>
     </section>
 
     <section>
       <h3>ما يرسله التطبيق، وإلى من</h3>
       <p>للعثور على الأوراق، يرسل حاشية الطلبات من جهازك مباشرة إلى فهرسين بحثيين عامّين:</p>
       <ul>
-        <li><strong>OpenAlex</strong> (<span class="host">api.openalex.org</span>) الذي تديره مؤسسة OurResearch ‏(Impactstory, Inc.): كلمات البحث وعوامل التصفية، وأي DOI تبحث عنه.</li>
+        <li><strong>OpenAlex</strong> (<span class="host">api.openalex.org</span>) الذي تديره مؤسسة OurResearch ‏(Impactstory, Inc.): كلمات البحث وعوامل التصفية، وأي DOI تبحث عنه، وأرقام DOI الواردة في ملف BibTeX أو RIS تستورده، للعثور على تلك الأوراق.</li>
         <li><strong>arXiv</strong> (<span class="host">export.arxiv.org</span>) الذي تديره جامعة كورنيل: معرّف arXiv الذي تبحث عنه، عندما لا تكون الورقة في OpenAlex.</li>
       </ul>
       <p>لا تتضمن هذه الطلبات اسمك أو مكتبتك أو أي معرّف ننشئه. وكأي موقع إلكتروني، ترى هذه الخدمات عنوان IP الخاص بك وقد تحتفظ بسجلات وفق سياسات الخصوصية الخاصة بها: <a href="https://openalex.org/OpenAlex_privacy_policy.pdf" rel="noopener">OpenAlex</a> و<a href="https://info.arxiv.org/help/policies/privacy_policy.html" rel="noopener">arXiv</a>.</p>
@@ -229,7 +231,7 @@
       <h3>إحصاءات الاستخدام</h3>
       <p>لمعرفة الميزات المفيدة وما يجب تحسينه، يرسل حاشية إحصاءات استخدام إلى <strong>Firebase Analytics</strong> ‏(Google Analytics for Firebase)، وهي خدمة من Google. وترتبط هذه الإحصاءات بمعرّف عشوائي تنشئه Firebase، لا باسمك أو بحسابك. وتتضمن:</p>
       <ul>
-        <li>أعدادًا لما تفعله في التطبيق: عمليات البحث (وهل كانت بحثًا بالكلمات أم بحثًا عن DOI أو معرّف arXiv أو رابط، وهل كانت عوامل التصفية مفعّلة، وعددًا تقريبيًا للنتائج، وهل استخدم البحث الحصة المشتركة لحاشية أو مفتاحك الخاص أو دون مفتاح أو نتائج محفوظة على جهازك)، وتحميل المزيد من النتائج (رقم الصفحة)، وبلوغ الحد اليومي للبحث أو حد الصفحات، والأوراق المحفوظة (من نتائج البحث أم من بحث عن معرّف) أو المُزالة، والملاحظات المعدّلة، والمجموعات المُنشأة والأوراق المضافة إليها، والتصدير (BibTeX أو نسخة احتياطية، مع ملفات PDF أو دونها)، والاستعادة وتنزيل ملفات PDF (ونجاحهما)، وفتح ملفات PDF (المُنزّلة أو المُرفقة)، والشاشات التي تفتحها؛</li>
+        <li>أعدادًا لما تفعله في التطبيق: عمليات البحث (وهل كانت بحثًا بالكلمات أم بحثًا عن DOI أو معرّف arXiv أو رابط، وهل كانت عوامل التصفية مفعّلة، وعددًا تقريبيًا للنتائج، وهل استخدم البحث الحصة المشتركة لحاشية أو مفتاحك الخاص أو دون مفتاح أو نتائج محفوظة على جهازك)، وتحميل المزيد من النتائج (رقم الصفحة)، وبلوغ الحد اليومي للبحث أو حد الصفحات، والأوراق المحفوظة (من نتائج البحث أم من بحث عن معرّف) أو المُزالة، والملاحظات المعدّلة، والمجموعات المُنشأة والأوراق المضافة إليها، والتصدير (BibTeX أو APA أو IEEE أو نسخة احتياطية، مع ملفات PDF أو دونها)، والاستعادة وتنزيل ملفات PDF (ونجاحهما)، وعمليات الاستيراد (وهل كان الملف BibTeX أم RIS، وهل نجح الاستيراد أم أُلغي أم سبب تعذّره، وعددًا تقريبيًا للإدخالات، ونسبة تقريبية لما عُثر عليه من الأوراق في OpenAlex، وهل وُضعت في مجموعة جديدة، دون اسم الملف أو محتواه أبدًا)، وفتح ملفات PDF (المُنزّلة أو المُرفقة)، والشاشات التي تفتحها؛</li>
         <li>لعمليات البحث بالكلمات، مجالًا بحثيًا عامًا مثل «الذكاء الاصطناعي» أو «شبكات الحاسوب»، يُستنتج على جهازك من موضوعات OpenAlex للنتائج، ولا تُرسَل كلمات بحثك أبدًا؛</li>
         <li>أول فتح للتطبيق ومرات فتحه وتحديثه ومدة استخدامه، وهي بيانات تسجّلها Firebase تلقائيًا؛</li>
         <li>لغة التطبيق، وحجمًا تقريبيًا للمكتبة (مثل «51–500 ورقة»)، وهل تستخدم مفتاح OpenAlex خاصًا بك، وإصدار التطبيق وطراز الجهاز ونظام التشغيل؛</li>
